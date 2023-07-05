@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  database:
+    image: mongo:6.0.6-jammy
+    restart: always
+    hostname: mongodb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mongoadmin
+      MONGO_INITDB_ROOT_PASSWORD: mongoadmin
+      MONGO_INITDB_DATABASE: users
+    ports:
+      - 27017:27017
+  backend:
+    build: ./backend
+    environment:
+      MONGO_INITDB_ROOT_PASSWORD: mongoadmin
+    ports:
+      - 5000:5000
+    depends_on:
+      - database
+  frontend:
+    build: ./frontend
+    ports:
+      - 3000:3000
+    depends_on:
+      - backend

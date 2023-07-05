@@ -1,0 +1,66 @@
+@import "../../assets/styles/fonts.module.scss";
+@import "../../assets/styles/colors.module";
+
+.container {
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 2rem;
+
+    .image {
+      height: 20rem;
+      width: 30rem;
+      border-radius: 7px;
+    }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      max-width: 30rem;
+
+      .header {
+        font-family: $primary-font;
+        font-weight: 700;
+        color: $primary-font-color;
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      .text {
+        font-family: $primary-font;
+        font-weight: 500;
+        color: $primary-font-color;
+        font-size: 1.2rem;
+      }
+
+      .margin {
+        margin-bottom: 1rem;
+      }
+
+      .formContainer {
+        width: 100%;
+      }
+
+      .button {
+        font-family: $primary-font;
+        color: $primary-background;
+        background: $primary-attention;
+        border-color: $primary-attention;
+        font-size: 1rem;
+        font-weight: 500;
+        cursor: pointer;
+        border-radius: 7px;
+        padding: 0 1rem;
+        text-decoration: none;
+      }
+    }
+  }
+}

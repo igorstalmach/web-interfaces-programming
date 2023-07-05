@@ -1,0 +1,48 @@
+@import "../../assets/styles/fonts.module";
+@import "../../assets/styles/colors.module";
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100dvh;
+
+  .wrapper {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2rem;
+    width: 80%;
+
+    .header {
+      font-family: $primary-font;
+      color: $primary-attention;
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+
+    .subheader {
+      font-family: $primary-font;
+      color: $primary-font-color;
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+
+    .divider {
+      width: max(25rem, 40%);
+      border: 1.5px solid $primary-attention;
+    }
+
+    .rentalWrapper {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      row-gap: 2rem;
+      margin-bottom: 5rem;
+    }
+  }
+}

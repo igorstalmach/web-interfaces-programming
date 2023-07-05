@@ -1,0 +1,48 @@
+@import "../../assets/styles/fonts.module";
+@import "../../assets/styles/colors.module";
+
+.container {
+  padding-top: 7rem;
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+    margin-bottom: 5rem;
+
+    .header {
+      font-family: $primary-font;
+      color: $primary-attention;
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+
+    .divider {
+      width: max(35rem, 60%);
+      border: 1.5px solid $primary-attention;
+    }
+
+    .formContainer {
+      width: 100%;
+
+      .button {
+        font-family: $primary-font;
+        color: $primary-background;
+        background: $primary-attention;
+        border-color: $primary-attention;
+        font-size: 1rem;
+        font-weight: 500;
+        cursor: pointer;
+        border-radius: 7px;
+        padding: 0 1rem;
+        text-decoration: none;
+      }
+    }
+  }
+}

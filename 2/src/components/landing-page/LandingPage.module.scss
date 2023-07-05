@@ -1,0 +1,30 @@
+@import "../../assets/styles/fonts.module";
+@import "../../assets/styles/colors.module";
+
+.container {
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .header {
+    font-family: $hero-font;
+    color: $hero-font-color;
+    font-size: 10vw;
+    margin: 0 10rem;
+    text-align: center;
+  }
+
+  .key {
+    position: absolute;
+    top: 3.5rem;
+    transform: rotate(75deg);
+    z-index: 2;
+    filter: drop-shadow(7px 10px 6px rgba(0, 0, 0, 0.3)) blur(0.5px);
+  }
+
+  .afterKey {
+    z-index: 3;
+  }
+}

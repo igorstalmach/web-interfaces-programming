@@ -1,0 +1,40 @@
+@import "../../assets/styles/fonts.module";
+@import "../../assets/styles/colors.module";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+
+  .buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+
+    .button {
+      font-family: $primary-font;
+      color: $primary-background;
+      background: $primary-attention;
+      border-color: $primary-attention;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      border-radius: 7px;
+      padding: 0 1rem;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+    }
+
+    .button > img {
+      width: 1.2rem;
+      margin-right: 0.5rem;
+    }
+  }
+}

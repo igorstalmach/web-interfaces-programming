@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "title": "Modern 2-Bedroom Apartment in the Heart of Madrid",
+    "description": "Live in style in this stunning 2-bedroom apartment located in the heart of Madrid. With sleek, modern design and high-end finishes, this apartment is perfect for those who appreciate luxury living. The apartment includes a fully equipped kitchen, spacious living area, and a private balcony with breathtaking views. Building amenities include a gym and rooftop terrace.",
+    "price": 1800,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareMeters": 85,
+    "address": {
+      "country": "Spain",
+      "city": "Madrid",
+      "street": "Gran Vía"
+    },
+    "image": "image",
+    "seller": {
+      "name": "Emily Brown",
+      "phoneNumber": "(555) 123-4567",
+      "email": "emily.brown@example.com"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Charming 1-Bedroom Apartment in Historic Florence",
+    "description": "Live in the heart of historic Florence in this charming 1-bedroom apartment. The apartment features original architectural details, including exposed wooden beams and brickwork, as well as a modern kitchen and bathroom. The building includes a communal courtyard and rooftop terrace with panoramic views of the city.",
+    "price": 1200,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareMeters": 50,
+    "address": {
+      "country": "Italy",
+      "city": "Florence",
+      "street": "Via della Scala"
+    },
+    "image": "image",
+    "seller": {
+      "name": "Jackson Lee",
+      "phoneNumber": "(555) 987-6543",
+      "email": "jackson.lee@example.com"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Spacious 3-Bedroom Apartment in the Heart of Tokyo",
+    "description": "Enjoy spacious city living in this stunning 3-bedroom apartment located in the heart of Tokyo. The apartment features high-end finishes, including hardwood floors and a gourmet kitchen with top-of-the-line appliances. Building amenities include a fitness center and 24-hour concierge service.",
+    "price": 550000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareMeters": 120,
+    "address": {
+      "country": "Japan",
+      "city": "Tokyo",
+      "street": "Minato-ku"
+    },
+    "image": "image",
+    "seller": {
+      "name": "Sophia Patel",
+      "phoneNumber": "(555) 555-1212",
+      "email": "sophia.patel@example.com"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Modern 2-Bedroom Apartment in Vibrant Lisbon",
+    "description": "Live in the vibrant city of Lisbon in this modern 2-bedroom apartment. The apartment boasts contemporary design and is fully equipped with everything you need for comfortable living. Enjoy stunning city views from the private balcony, and take advantage of the building's rooftop pool and lounge area.",
+    "price": 1500,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareMeters": 75,
+    "address": {
+      "country": "Portugal",
+      "city": "Lisbon",
+      "street": "Avenida da Liberdade"
+    },
+    "image": "image",
+    "seller": {
+      "name": "Benjamin Davis",
+      "phoneNumber": "(555) 867-5309",
+      "email": "benjamin.davis@example.com"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Cozy 1-Bedroom Apartment in Quiet Amsterdam Neighborhood",
+    "description": "Escape the hustle and bustle of the city in this cozy 1-bedroom apartment located in a quiet Amsterdam neighborhood. The apartment features a fully equipped kitchen, comfortable living area, and a private balcony overlooking a lush courtyard. The building includes a communal garden and bike storage.",
+    "price": 1000,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareMeters": 45,
+    "address": {
+      "country": "Netherlands",
+      "city": "Amsterdam",
+      "street": "Haarlemmerplein"
+    },
+    "image": "image",
+    "seller": {
+      "name": "Olivia Kim",
+      "phoneNumber": "(555) 222-3333",
+      "email": "olivia.kim@example.com"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Luxury 2-Bedroom Apartment in the Heart of Paris",
+    "description": "Experience luxury living in this stunning 2-bedroom apartment located in the heart of Paris. The apartment features high-end finishes, including marble bathrooms and gourmet kitchen appliances. Enjoy stunning views of the Eiffel Tower from the private balcony, and take advantage of the building's fitness center and rooftop terrace.",
+    "price": 3000,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "squareMeters": 100,
+    "address": {
+      "country": "France",
+      "city": "Paris",
+      "street": "Avenue des Champs-Élysées"
+    },
+    "image": "image",
+    "seller": {
+      "name": "Ethan Jones",
+      "phoneNumber": "(555) 444-5555",
+      "email": "ethan.jones@example.com"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Modern 1-Bedroom Apartment in Trendy Berlin Neighborhood",
+    "description": "Live in style in this modern 1-bedroom apartment located in a trendy Berlin neighborhood. The apartment features sleek, contemporary design and high-end finishes, including a fully equipped kitchen and designer bathroom. Take advantage of the building's rooftop pool and lounge area, or explore the vibrant neighborhood just outside your door.",
+    "price": 1200,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareMeters": 60,
+    "address": {
+      "country": "Germany",
+      "city": "Berlin",
+      "street": "Torstraße"
+    },
+    "image": "image",
+    "seller": {
+      "name": "Isabella Martinez",
+      "phoneNumber": "(555) 666-7777",
+      "email": "isabella.martinez@example.com"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Luxury 3-Bedroom Apartment in Exclusive London Neighborhood",
+    "description": "Live in luxury in this stunning 3-bedroom apartment located in an exclusive London neighborhood. The apartment features high-end finishes, including hardwood floors and gourmet kitchen appliances. Enjoy stunning views of the city from the private balcony, and take advantage of the building's fitness center and 24-hour concierge service.",
+    "price": 5000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareMeters": 150,
+    "address": {
+      "country": "United Kingdom",
+      "city": "London",
+      "street": "Park Lane"
+    },
+    "image": "image",
+    "seller": {
+      "name": "William Nguyen",
+      "phoneNumber": "(555) 888-9999",
+      "email": "william.nguyen@example.com"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Spacious 2-Bedroom Apartment in Historical Athens Neighborhood",
+    "description": "Live in the heart of historical Athens in this spacious 2-bedroom apartment. The apartment features original architectural details, including exposed wooden beams and brickwork, as well as a modern kitchen and bathroom. Take advantage of the building's communal courtyard and rooftop terrace with panoramic views of the city.",
+    "price": 1300,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareMeters": 85,
+    "address": {
+      "country": "Greece",
+      "city": "Athens",
+      "street": "Ermou"
+    },
+    "image": "image",
+    "seller": {
+      "name": "Mia Rodriguez",
+      "phoneNumber": "(555) 234-5678",
+      "email": "mia.rodriguez@example.com"
+    }
+  },
+  {
+    "id": 10,
+    "title": "Stylish 1-Bedroom Apartment in Hip Copenhagen Neighborhood",
+    "description": "Live in style in this stylish 1-bedroom apartment located in a hip Copenhagen neighborhood. The apartment features sleek, modern design and high-end finishes, including a fully equipped kitchen and designer bathroom. Take advantage of the building's fitness center and rooftop terrace, or explore the vibrant neighborhood just outside your door.",
+    "price": 1500,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "squareMeters": 65,
+    "address": {
+      "country": "Denmark",
+      "city": "Copenhagen",
+      "street": "Vesterbro"
+    },
+    "image": "image",
+    "seller": {
+      "name": "Lucas Hernandez",
+      "phoneNumber": "(555) 987-6543",
+      "email": "lucas.hernandez@example.com"
+    }
+  }
+]

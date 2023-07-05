@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+$primary-font: "Roboto", sans-serif;
+$hero-font: "Roboto Condensed", sans-serif;
+$logo-font: "Righteous", serif;
+
+:export {
+  primaryFont: $primary-font;
+  heroFont: $hero-font;
+  logoFont: $logo-font;
+}

@@ -1,0 +1,105 @@
+:root {
+  --primary: #f5f5f7;
+  --secondary: #ececec;
+  --gray: #9f989a;
+  --font-color: #1d1d1f;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: var(--primary);
+}
+
+h1,
+h2 {
+  color: var(--font-color);
+  font-weight: bold;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7rem;
+}
+
+.wrapper .list-container {
+  height: 31.25rem;
+  width: 31.25rem;
+  background-color: var(--primary);
+  box-shadow: inset 12px 12px 8px #bababc, inset -12px -12px 8px #ffffff;
+  border-radius: 1.5625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 3rem;
+}
+
+.container .input-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+  row-gap: 0.5rem;
+}
+
+.list-container ul {
+  margin-top: 2rem;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.list-container ul li {
+  width: calc(100% - 2rem);
+  font-size: 1.1rem;
+  color: var(--font-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-wrap: anywhere;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+}
+
+.list-container ul li #delete-btn {
+  margin-left: 0.5rem;
+}
+
+.list-container ul li:nth-child(odd) {
+  background-color: var(--secondary);
+}
+
+.list-container ul .done {
+  color: var(--gray);
+  text-decoration: line-through;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.unset-height {
+  height: unset !important;
+}
